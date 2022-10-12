@@ -1,0 +1,20 @@
+{
+  "name": "modo_asincrono",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon promises/2_simple_arrow.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

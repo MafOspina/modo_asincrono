@@ -52,4 +52,6 @@ const fallo = (status) =>{
 //invocar funcion - them para cuando el resultado de la tansccion es positiva
 get_data(url).then((data) => {
     exito(data)
+}).catch((status)=>{
+    fallo(status)
 })
